@@ -91,7 +91,8 @@ a.active,a:hover{
     left: 0;
   }
 }
-section{
+
+.hero{
   background: url(/img/hero.jpeg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);

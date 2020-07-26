@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi mejor amigo | Adoptame</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/adopciones.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label class="logo">
+        <img src="./img/logo.jpeg" alt="Logo Mi Mejor Amigo" style="width: 30px;"/>
+        Mi mejor amigo
+      </label>
+      <ul>
+        <li><a class="active" href="./index.html">Inicio</a></li>
+        <li><a href="./adoptame.html">Adoptame</a></li>
+        <li><a href="#">Requisitos</a></li>
+        <li><a href="#">Contactanos</a></li>
+      </ul>
+    </nav>
+    <section class="adopciones">
+      <div class="card">
+        <img class="card-img-top" src="./img/dog1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Bonita</h5>
+          <p class="card-text">Cariñosa y muy fiel.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dataModalDog1">
+            Mas detalles
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./img/dog2.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Clarita</h5>
+          <p class="card-text">Chiguahua cariñosa.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dataModalDog2">
+            Mas detalles
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./img/dog3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Riquy</h5>
+          <p class="card-text">Chiguahua hermosa y muy dulce.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dataModalDog3">
+            Mas detalles
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./img/dog4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Luna</h5>
+          <p class="card-text">Hermosa chihuhua con todas sus vacunas .</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dataModalDog4">
+            Mas detalles
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- Modal -->
+      <div class="modal fade" id="dataModalDog1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Datos del perro</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h4>Nombre: <span>Bonita</span></h4>
+              <h4>Raza: <span>Criolla</span></h4>
+              <h4>Color: <span>Blanca / Negro</span></h4>
+              <h4>Sexo: <span>Hembra</span></h4>
+              <h4>Edad: <span>1 año</span></h4>
+              <h4>Informacion adicioanal: <span>cariñosa, y muy fiel</span></h4>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="dataModalDog2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Datos del perro</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h4>Nombre: <span>Clarita</span></h4>
+              <h4>Raza: <span>Chihuahua</span></h4>
+              <h4>Color: <span>amarillo con blanco</span></h4>
+              <h4>Sexo: <span>Hembra</span></h4>
+              <h4>Edad: <span>2 año</span></h4>
+              <h4>Informacion adicioanal: <span>chihuahua cariñosa</span></h4>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="dataModalDog3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Datos del perro</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h4>Nombre: <span>Riguy</span></h4>
+              <h4>Raza: <span>Chihuaha</span></h4>
+              <h4>Color: <span>amarillo con blanco</span></h4>
+              <h4>Sexo: <span>Macho</span></h4>
+              <h4>Edad: <span>1 año</span></h4>
+              <h4>Informacion adicioanal: <span>chihuahua hermosa, cariñosa, limpia y muy limpia</span></h4>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="dataModalDog4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Datos del perro</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h4>Nombre: <span>Luna</span></h4>
+              <h4>Raza: <span>Chihuaha</span></h4>
+              <h4>Color: <span>amarillo con blanco</span></h4>
+              <h4>Sexo: <span>Hembra</span></h4>
+              <h4>Edad: <span>1 año</span></h4>
+              <h4>Informacion adicioanal: <span>hermosa chihuhua con todas sus vacunas</span></h4>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

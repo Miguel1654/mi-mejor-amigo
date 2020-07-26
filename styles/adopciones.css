@@ -1,0 +1,17 @@
+.adopciones {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 25rem;
+  margin: 12px 12px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+}
