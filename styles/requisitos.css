@@ -1,0 +1,11 @@
+.requisitos {
+  position: fixed;
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.requisitos__message {
+  text-transform: uppercase;
+}
